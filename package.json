@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src --fix",
-    "test:unit": "vitest run"
+    "test:unit": "vitest run src/math.test.js"
   },
   "keywords": [],
   "author": "",

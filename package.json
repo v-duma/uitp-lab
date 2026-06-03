@@ -1,0 +1,22 @@
+{
+  "name": "uitp-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --fix",
+    "test:unit": "vitest run src/math.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@vitest/coverage-v8": "^1.6.1",
+    "eslint": "^10.4.1",
+    "vite": "^5.4.21",
+    "vitest": "^1.6.1"
+  }
+}
